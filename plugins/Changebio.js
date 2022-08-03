@@ -9,7 +9,7 @@ const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = re
 const Language = require('../language');
 const Lang = Language.getString('_trex');
 const fs = require("fs")
-const kawa = fs.readFileSync('./Voice/kawa.mp3')
+const kawa = fs.readFileSync('./Voice/omiya.mp3')
 
 Trex.addrex({pattern: 'bio ?(.*)', fromMe: true,  deleteCommand: false,  dontAddCommandList: true}, (async (message, match) => {
  
