@@ -15,35 +15,36 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹👑 ༺👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳👸༻ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝚆.𝙰 𝙱𝙾𝚃* 👑╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+☄   *Owner & Founder - Omindu Anjana ( BlackAlpha )*
 
-🖲️   *Language - NODE JS*
+☄   *Language - NODE.JS,python*
 
-🖲️   *Sponser Team - PEARL Team*
+☄   *Sponser Team -  Team Queen Lora*
 
 
-       💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
+       🥉 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 🥉
 
-🍒 *Kasun Ravihara* 🍒
-➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
+🔱 *Kavidu Sathsara* 🔱
+➻ *Co-Owner*
 
-🍒 *Hiruwa* 🍒
-➻ *Co Owner*
+🔱 *Lakidu* 🔱
+➻ *Group Management*
 
-🍒 *Thinura* 🍒
+🔱 *Rasanja* 🔱
 ➻ *Admin Manger*
 
-           🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
+           👸 *𝚃𝙴𝙰𝙼 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰* ™👸
 
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+╹ ◉ *Omindu Anjana* ╹
+╹ ◉ *Kavidu Sathsara* ╹
+╹ ◉ *Lakindu*╹
+╹ ◉ *Rasanja*    ╹
   
   https://api.whatsapp.com/message/STKRUWM327GCG1
 
-   🔰 *ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ* 🔰`})
+   👸 *powerd by Queen Lora Md* 👸`})
 
     }));
 }
@@ -55,33 +56,33 @@ else if (Config.WORKTYPE == 'public') {
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+☄   *Owner & Founder - Omindu Anjan ( BlackAlpha )*
 
-🖲️   *Language - NODE JS*
+☄   *Language - NODE.JS,python*
 
-🖲️   *Sponser Team - PEARL Team*
+☄   *Sponser Team - Team Queen Lora
 
 
-       💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
+       🥉 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 🥉
 
-🍒 *Kasun Ravihara* 🍒
-➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
+🔱 *Kavindu Sathsara* 🔱
+◉ *Co-Owner*
 
-🍒 *Hiruwa* 🍒
-➻ *Co Owner*
+🔱 *Lakidu* 🔱
+➻ *Group Management*
 
-🍒 *Thinura* 🍒
+🔱 *Rasanja* 🔱
 ➻ *Admin Manger*
 
-           🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
-
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+           👸 *𝚃𝙴𝙰𝙼 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰* ™👸
+╹ ◉ *Omindu Anjana* ╹
+╹ ◉ *Kavindu Sathsara* ╹
+╹ ◉ *Lakindu*╹
+╹ ◉ *Rasanja*    ╹
   
   https://api.whatsapp.com/message/STKRUWM327GCG1
 
-   🔰 *ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ* 🔰` })
+   👸 *powerd by Queen Lora Md* 👸` })
 
     }));
   
@@ -91,33 +92,34 @@ else if (Config.WORKTYPE == 'public') {
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+☄   *Owner & Founder - Omindu Anjana ( BlackAlpha )*
 
-🖲️   *Language - NODE JS*
+☄   *Language - NODE.JS,python*
 
-🖲️   *Sponser Team - PEARL Team*
+☄   *Sponser Team - Team Queen Lora*
 
 
-       💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
+       🥉 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 🥉
 
-🍒 *Kasun Ravihara* 🍒
-➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
+🔱 *Kavindu Sathsara* 🔱
+➻ *Co-Owner*
 
-🍒 *Hiruwa* 🍒
-➻ *Co Owner*
+🔱 *Lakindu* 🔱
+➻ *Group Management*
 
-🍒 *Thinura* 🍒
+🔱 *Rasanja* 
 ➻ *Admin Manger*
 
-           🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
+           👸 *𝚃𝙴𝙰𝙼 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰* ™👸
 
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+╹ ◉ *Omindu Anjana* ╹
+╹ ◉ *Kavindu Saththsara*╹
+╹ ◉ *Lakindu*    ╹
+╹ ◉ *Rasanja* ╹
   
   https://api.whatsapp.com/message/STKRUWM327GCG1
 
-   🔰 *ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ* 🔰 `  ,quoted: message.data})
+   👸 *powerd by Queen Lora Md* 👸 `  ,quoted: message.data})
 
     }));
 }
