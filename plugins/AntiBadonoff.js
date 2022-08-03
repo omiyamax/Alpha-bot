@@ -17,7 +17,7 @@ var l_dsc = ''
     var succ_on = ''
     var succ_off = ''
     if (config.LANG == 'SI') {
-        l_dsc = 'Activates the Antibad tool.'
+        l_dsc = 'Activates the Antibad tool..'
         alr_on = 'Antibad is already open!'
         alr_off = 'Antibad is currently closed!'
         succ_on = 'Antibad Opened Successfully!'
