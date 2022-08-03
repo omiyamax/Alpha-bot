@@ -17,13 +17,13 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-const ADD = '94757405652,94716292396'
+const ADD = '94760510568,94707104949'
 
 var kickmsg = ''
-if (Config.LANG == 'SI') kickmsg = '_❌ නරක වචන bot අයිතිකරු විසින් තහනම් කර ඇත.*_\n\n ⎝🛡️ ALPHA 🛡️⎠  '
-if (Config.LANG == 'EN') kickmsg = '_❌ Bad words are prohibited by the bot owner.*_\n\n ⎝🛡️ ALPHA 🛡️⎠  '
-if (Config.LANG == 'SI') kickmsg1 = '_❌ ලින්ක් bot අයිතිකරු විසින් තහනම් කර ඇත.*_\n\n ⎝🛡️ ALPHA 🛡️⎠   '
-if (Config.LANG == 'EN') kickmsg1 = '_❌ Links are prohibited by the bot owner.*_\n\n ⎝🛡️ ALPHA 🛡️⎠   '
+if (Config.LANG == 'SI') kickmsg = '_✖️ නරක වචන bot අයිතිකරු විසින් තහනම් කර ඇත.*_\n\n 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳👸  '
+if (Config.LANG == 'EN') kickmsg = '_✖️ Bad words are prohibited by the bot owner.*_\n\n 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳👸  '
+if (Config.LANG == 'SI') kickmsg1 = '_✖️ ලින්ක් bot අයිතිකරු විසින් තහනම් කර ඇත.*_\n\n 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳👸   '
+if (Config.LANG == 'EN') kickmsg1 = '_✖️ Links are prohibited by the bot owner.*_\n\n 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳👸   '
 
 Trex.addrex({on: 'text', fromMe: false,  deleteCommand: false}, (async (message, match) => {    
     if (Config.ANTIBAD == 'true') {
