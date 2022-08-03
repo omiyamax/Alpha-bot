@@ -93,7 +93,7 @@ if (Config.WORKTYPE == 'public') {
 
             var image = await axios.get ('https://telegra.ph/file/44f514afcbb5953196b92.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  👸 SOFTWARE STORE BY 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 👸
 │        Antivirus Softwares
 │  ▪Avira Antivirus Pro 15.0.29 =.aa
 │  ▪IObit Advanced SystemCare Pro 12.4.0 =.as1
