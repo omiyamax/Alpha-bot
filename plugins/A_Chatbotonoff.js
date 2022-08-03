@@ -13,7 +13,7 @@ var l_dsc = ''
     var succ_on = ''
     var succ_off = ''
     if (config.LANG == 'SI') {
-        l_dsc = 'Activates the Chatbot tool..'
+        l_dsc = 'Activates the Chatbot tool.'
         alr_on = 'Chatbot is already open!'
         alr_off = 'Chatbot is currently closed!'
         succ_on = 'Chatbot Opened Successfully!'
