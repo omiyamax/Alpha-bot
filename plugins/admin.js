@@ -1588,12 +1588,12 @@ Trex.addrex({pattern: 'unmute ?(.*)', fromMe: true,  deleteCommand: false,  only
 
 Trex.addrex({pattern: 'clear', fromMe: true,  deleteCommand: false,  desc: Lang.END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```🖲️  ➢ Chat clearing...```');
+    await message.sendMessage('```🗑️  ⥤ Chat clearing...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🖲️  ➢ All Chat cleared```');
+    await message.sendMessage('```🗑️  ⥤ All Chat cleared```');
 }));
 
-Trex.addrex({pattern: 'gname ?(.*)', onlyGroup: true, fromMe: true,  deleteCommand: false,  dontAddCommandList: true}, (async (message, match) => {
+Trex.addrex({pattern: 'groupname ?(.*)', onlyGroup: true, fromMe: true,  deleteCommand: false,  dontAddCommandList: true}, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -1604,7 +1604,7 @@ Trex.addrex({pattern: 'gname ?(.*)', onlyGroup: true, fromMe: true,  deleteComma
     }
 ));
 
-Trex.addrex({pattern: 'invite ?(.*)', fromMe: true, dontAdCommandList: true, onlyGroup: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
+Trex.addrex({pattern: 'invitelink ?(.*)', fromMe: true, dontAdCommandList: true, onlyGroup: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN, MessageType.text);
     var invite = await message.client.groupInviteCode(message.jid);
