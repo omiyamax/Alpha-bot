@@ -70,7 +70,7 @@ async function Trex () {
     conn.version = [3,2147,14];
     const Session = new StringSession();
     
-    conn.browserDescription = ["ALPHA", "Safari", '4.0.0']
+    conn.browserDescription = ["QUEEN LORA MD", "Safari", '2.0']
 
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
@@ -85,7 +85,7 @@ async function Trex () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('▷ Login information updated! 🛡️⎠')
+            chalk.blueBright.italic('▶ Login information updated! 👸')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -97,19 +97,19 @@ async function Trex () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('⎝🛡️ A')}${chalk.blue.bold('LPHA 🛡️⎠')}
+        console.log(`${chalk.green.bold('👸𝚀𝚄𝙴𝙴𝙽 ')}${chalk.yellow.bold('𝙻𝙾𝚁𝙰👸⎠')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('⎝🛡️ Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('👸 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('⎝🛡️  Login successful!▶')
+            chalk.green.bold('👸  Login successful!▶')
         );
 
         console.log(
-            chalk.blueBright.italic('🚀 Installing external plugins...▶')
+            chalk.blueBright.italic('🔄 Installing external plugins...▶')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -125,7 +125,7 @@ ${chalk.blue.italic('⎝🛡️ Connecting to WhatsApp...▶')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⎝🛡️ Installing plugins...')
+            chalk.blueBright.italic('⏬ Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -135,11 +135,11 @@ ${chalk.blue.italic('⎝🛡️ Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS🍁🍁🍁
         console.log(
-            chalk.green.bold(' ⎝🛡️ ALPHA 🛡️⎠ WHATSAPP BOT WORKING!▷')
+            chalk.green.bold(' 👸 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 👸 WHATSAPP BOT WORKING!▷')
        );
         
         console.log(
-            chalk.blueBright.italic('⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot v4.0.0')
+            chalk.blueBright.italic('👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 👸 WhatsApp User Bot v4.0.0')
         );
         
          if (config.LANG == 'EN') {
