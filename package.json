@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DARKCRIME1/xmas.git"
+    "url": "git+https://github.com/omiyamax/Alpha-bot.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
-    "T-REX",
-    "T-REX WA"
+    "Lora",
+    "Queen Lora"
   ],
-  "author": "Hiruwa",
-  "developer": "@Hiruwa / @Hiruwa",
+  "author": "Omindu Anjana",
+  "developer": "@ominduanjana / @QueenLora",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Dark-Knight-Hiruwa/T-REX/issues"
